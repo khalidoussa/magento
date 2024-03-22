@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.3 on win32)" generated="2024-03-22T11:42:58.340367" rpa="false" schemaversion="5">
+<suite id="s1" name="Projet Groupe2" source="C:\Users\khali\PycharmProjects\Projet_Magento\tests\Projet_Groupe2.robot">
+<test id="s1-t1" name="Sign In" line="84">
+<kw name="navigate">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:42:58.558729" level="INFO">Opening browser 'chrome' to base url 'https://magento.softwaretestingboard.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-03-22T11:42:58.558729" elapsed="4.806198"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-22T11:43:05.366576" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-22T11:43:03.365940" elapsed="2.000636"/>
+</kw>
+<status status="PASS" start="2024-03-22T11:42:58.557737" elapsed="6.808839"/>
+</kw>
+<kw name="signin">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:05.369676" level="INFO">Clicking element '//html/body/div[2]/header/div[1]/div/ul/li[2]/a'.</msg>
+<arg>//html/body/div[2]/header/div[1]/div/ul/li[2]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-22T11:43:05.368654" elapsed="1.118817"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:06.488467" level="INFO">Typing text 'michelle6.lef@gmail.com' into text field '//*[@id="email"]'.</msg>
+<arg>//*[@id="email"]</arg>
+<arg>michelle6.lef@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-22T11:43:06.487471" elapsed="0.506975"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:06.995463" level="INFO">Typing text 'Michelle7892' into text field '//*[@id="pass"]'.</msg>
+<arg>//*[@id="pass"]</arg>
+<arg>Michelle7892</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-22T11:43:06.994446" elapsed="0.175523"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:07.170999" level="INFO">Clicking element '//*[@id="send2"]'.</msg>
+<arg>//*[@id="send2"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-22T11:43:07.169969" elapsed="1.494834"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-22T11:43:10.665177" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-22T11:43:08.664803" elapsed="2.000374"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:10.666434" level="INFO">Clicking element '//*[@id="ui-id-8"]/span'.</msg>
+<arg>//*[@id="ui-id-8"]/span</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-22T11:43:10.665177" elapsed="0.761323"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-22T11:43:13.427854" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-22T11:43:11.427476" elapsed="2.000378"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:13.429047" level="INFO">Clicking element '//*[@id="maincontent"]/div[4]/div[2]/div/div/ul[3]/li[1]/a'.</msg>
+<arg>//*[@id="maincontent"]/div[4]/div[2]/div/div/ul[3]/li[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-22T11:43:13.427854" elapsed="0.835510"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-22T11:43:16.264384" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-22T11:43:14.263364" elapsed="2.001537"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:16.265943" level="INFO">Clicking element '//*[@id="maincontent"]/div[3]/div[1]/div[4]/ol/li[3]/div/a/span/span/img'.</msg>
+<arg>//*[@id="maincontent"]/div[3]/div[1]/div[4]/ol/li[3]/div/a/span/span/img</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-22T11:43:16.264901" elapsed="0.780255"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:17.045156" level="INFO">Clicking button '//*[@id="product_addtocart_form"]/div/div/div[2]/button'.</msg>
+<arg>//*[@id="product_addtocart_form"]/div/div/div[2]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-22T11:43:17.045156" elapsed="0.419605"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-22T11:43:20.466150" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-22T11:43:17.465775" elapsed="3.000375"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:20.467261" level="INFO">Clicking element '//html/body/div[2]/header/div[2]/div[1]/a'.</msg>
+<arg>//html/body/div[2]/header/div[2]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-22T11:43:20.467261" elapsed="0.113312"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:20.581581" level="INFO">Clicking button '//*[@id="top-cart-btn-checkout"]'.</msg>
+<arg>//*[@id="top-cart-btn-checkout"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-22T11:43:20.580573" elapsed="1.456234"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-22T11:43:25.039405" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-22T11:43:22.036807" elapsed="3.002598"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:25.040423" level="INFO">Typing text 'ata' into text field 'name:company'.</msg>
+<arg>name:company</arg>
+<arg>ata</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-22T11:43:25.039405" elapsed="0.233902"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:25.273307" level="INFO">Typing text '14 rue de la paix' into text field 'css:[name="street[0]"]'.</msg>
+<arg>css:[name="street[0]"]</arg>
+<arg>14 rue de la paix</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-22T11:43:25.273307" elapsed="0.196083"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:25.469909" level="INFO">Typing text 'Arizona' into text field 'css:[name="city"]'.</msg>
+<arg>css:[name="city"]</arg>
+<arg>Arizona</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-22T11:43:25.469909" elapsed="0.155720"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:25.625629" level="INFO">Selecting options from selection list 'css:[name="region_id"]' by label Arizona.</msg>
+<arg>css:[name="region_id"]</arg>
+<arg>Arizona</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2024-03-22T11:43:25.625629" elapsed="0.110813"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:25.737449" level="INFO">Typing text '75000' into text field 'css:[name="postcode"]'.</msg>
+<arg>css:[name="postcode"]</arg>
+<arg>75000</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-22T11:43:25.737449" elapsed="0.168045"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:25.905494" level="INFO">Selecting options from selection list 'css:[name="country_id"]' by label United States.</msg>
+<arg>css:[name="country_id"]</arg>
+<arg>United States</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2024-03-22T11:43:25.905494" elapsed="0.074948"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:25.980442" level="INFO">Typing text '0612345678' into text field 'css:[name="telephone"]'.</msg>
+<arg>css:[name="telephone"]</arg>
+<arg>0612345678</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-22T11:43:25.980442" elapsed="0.376268"/>
+</kw>
+<kw name="Select Radio Button" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:26.357707" level="INFO">Selecting 'tablerate_bestway' from radio button 'ko_unique_1'.</msg>
+<arg>ko_unique_1</arg>
+<arg>value=tablerate_bestway</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="PASS" start="2024-03-22T11:43:26.357707" elapsed="0.098571"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:26.457288" level="INFO">Clicking button '//*[@id="shipping-method-buttons-container"]/div/button'.</msg>
+<arg>//*[@id="shipping-method-buttons-container"]/div/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-22T11:43:26.457288" elapsed="0.126399"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-22T11:43:30.584084" level="INFO">Slept 4 seconds.</msg>
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-22T11:43:26.583687" elapsed="4.000397"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:30.585107" level="INFO">Clicking button 'css:[title="Place Order"]'.</msg>
+<arg>css:[title="Place Order"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-22T11:43:30.584084" elapsed="0.123577"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-22T11:43:36.708910" level="INFO">Slept 6 seconds.</msg>
+<arg>6</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-22T11:43:30.708660" elapsed="6.000250"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-03-22T11:43:36.746589" level="INFO">${order} = Thank you for your purchase!</msg>
+<var>${order}</var>
+<arg>css:[data-ui-id="page-title-wrapper"]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-22T11:43:36.708910" elapsed="0.037679"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${order}</arg>
+<arg>Thank you for your purchase!</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2024-03-22T11:43:36.746589" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-22T11:43:40.746819" level="INFO">Slept 4 seconds.</msg>
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-22T11:43:36.746589" elapsed="4.000230"/>
+</kw>
+<status status="PASS" start="2024-03-22T11:43:05.367490" elapsed="35.379329"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-03-22T11:43:40.746819" elapsed="2.377379"/>
+</kw>
+<tag>signin</tag>
+<status status="PASS" start="2024-03-22T11:42:58.556748" elapsed="44.568456"/>
+</test>
+<status status="PASS" start="2024-03-22T11:42:58.342121" elapsed="44.785099"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">signin</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Projet Groupe2">Projet Groupe2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

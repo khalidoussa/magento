@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.3 on win32)" generated="2024-03-21T21:48:53.389567" rpa="false" schemaversion="5">
+<suite id="s1" name="Projet Groupe2" source="C:\Users\khali\PycharmProjects\Projet_Magento\tests\Projet_Groupe2.robot">
+<test id="s1-t1" name="create an account" line="37">
+<kw name="navigate">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-03-21T21:48:53.623923" level="INFO">Opening browser 'chrome' to base url 'https://magento.softwaretestingboard.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-03-21T21:48:53.623923" elapsed="4.864118"/>
+</kw>
+<status status="PASS" start="2024-03-21T21:48:53.622923" elapsed="4.865118"/>
+</kw>
+<kw name="create an account">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-03-21T21:48:58.492018" level="INFO">Clicking element '//html/body/div[2]/header/div[1]/div/ul/li[3]/a'.</msg>
+<arg>//html/body/div[2]/header/div[1]/div/ul/li[3]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T21:48:58.491014" elapsed="1.297206"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-21T21:49:00.789512" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-21T21:48:59.789234" elapsed="1.000278"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-03-21T21:49:00.790546" level="INFO">Typing text 'michelle2' into text field 'id:firstname'.</msg>
+<arg>id:firstname</arg>
+<arg>michelle2</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T21:49:00.789512" elapsed="0.298735"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-21T21:49:02.088799" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-21T21:49:01.088247" elapsed="1.001093"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-03-21T21:49:02.090377" level="INFO">Typing text 'lefevre2' into text field '//*[@id="lastname"]'.</msg>
+<arg>//*[@id="lastname"]</arg>
+<arg>lefevre2</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T21:49:02.089340" elapsed="0.191363"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-21T21:49:03.281927" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-21T21:49:02.280703" elapsed="1.001224"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-03-21T21:49:03.281927" level="INFO">Typing text 'michelle10.lef@gmail.com' into text field '//*[@id="email_address"]'.</msg>
+<arg>//*[@id="email_address"]</arg>
+<arg>michelle10.lef@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T21:49:03.281927" elapsed="0.250440"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-21T21:49:04.532985" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-21T21:49:03.532367" elapsed="1.000618"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-03-21T21:49:04.534106" level="INFO">Typing text 'Michelle7892' into text field '//*[@id="password"]'.</msg>
+<arg>//*[@id="password"]</arg>
+<arg>Michelle7892</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T21:49:04.532985" elapsed="0.236236"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-21T21:49:05.769625" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-21T21:49:04.769221" elapsed="1.000404"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-03-21T21:49:05.770642" level="INFO">Typing text 'Michelle7892' into text field '//*[@id="password-confirmation"]'.</msg>
+<arg>//*[@id="password-confirmation"]</arg>
+<arg>Michelle7892</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T21:49:05.769625" elapsed="0.329194"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-21T21:49:07.098873" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-21T21:49:06.098819" elapsed="1.000054"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-03-21T21:49:07.099893" level="INFO">Clicking button '//*[@id="form-validate"]/div/div[1]/button'.</msg>
+<arg>//*[@id="form-validate"]/div/div[1]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T21:49:07.098873" elapsed="3.125191"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-21T21:49:11.225527" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-21T21:49:10.224064" elapsed="1.001463"/>
+</kw>
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2024-03-21T21:49:11.225527" level="INFO">Verifying element '//*[@id="maincontent"]/div[1]/div[2]/div/div/div' contains exact text 'Thank you for registering with Main Website Store.'.</msg>
+<arg>//*[@id="maincontent"]/div[1]/div[2]/div/div/div</arg>
+<arg>Thank you for registering with Main Website Store.</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2024-03-21T21:49:11.225527" elapsed="0.030504"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-21T21:49:14.257670" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-21T21:49:11.256031" elapsed="3.001639"/>
+</kw>
+<kw name="Location Should Contain" owner="SeleniumLibrary">
+<msg time="2024-03-21T21:49:14.270397" level="INFO">Current location contains '/customer/account/'.</msg>
+<arg>/customer/account/</arg>
+<doc>Verifies that the current URL contains ``expected``.</doc>
+<status status="PASS" start="2024-03-21T21:49:14.257670" elapsed="0.012727"/>
+</kw>
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2024-03-21T21:49:14.301785" level="INFO">Element '//*[@id="maincontent"]/div[2]/div[1]/div[1]/h1/span' is displayed.</msg>
+<arg>//*[@id="maincontent"]/div[2]/div[1]/div[1]/h1/span</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2024-03-21T21:49:14.270397" elapsed="0.032388"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-03-21T21:49:14.326094" level="INFO">${nomprenom} = michelle2 lefevre2
+michelle10.lef@gmail.com</msg>
+<var>${nomprenom}</var>
+<arg>//*[@id="maincontent"]/div[2]/div[1]/div[4]/div[2]/div/div[1]/p</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T21:49:14.302785" elapsed="0.023309"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${nomprenom}</arg>
+<arg>michelle2 lefevre2\nmichelle10.lef@gmail.com</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2024-03-21T21:49:14.327338" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-03-21T21:48:58.490014" elapsed="15.837830"/>
+</kw>
+<status status="PASS" start="2024-03-21T21:48:53.622923" elapsed="20.704921"/>
+</test>
+<status status="PASS" start="2024-03-21T21:48:53.392575" elapsed="20.936424"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Projet Groupe2">Projet Groupe2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
